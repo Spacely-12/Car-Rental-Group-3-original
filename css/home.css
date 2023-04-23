@@ -12,7 +12,7 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color: #8394a1;
+    background: #162938;
     background-size: cover;
     background-position: center;
     scroll-behavior: smooth;
@@ -122,7 +122,7 @@ margin-left: 40px;
     width: 100%;
     padding: 30px;
    top: 20px;
-   color: aliceblue;
+   color: rgb(0, 0, 0);
    
 }
 
@@ -169,9 +169,11 @@ margin-left: 40px;
     flex-direction: column;
     align-items: center;
     text-align: center;
+    background-color: transparent;
     border: 1px solid #ccc;
     padding: 10px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 5px rgba(240, 235, 235, 0.973);
+    background-color: #ffffff;
     border-radius: 13px;
   }
 
