@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+
+}
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(/image/assets/maybach1.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    scroll-behavior: smooth;
+   
+    
+    
+}
+
+header{
+    position: fixed;
+    color: #162938;
+    background: #162938;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+}
+
+.logo{
+    font-size: 2em;
+    color: rgb(135, 249, 245);
+    user-select: none;
+    cursor: pointer;
+
+}
+.navigation a{
+position: relative;
+font-size: 1.1em;
+color: rgb(255, 255, 255);
+text-decoration: none;
+font-weight: 500;
+margin-left: 40px;
+}
+.navigation a::after{
+    content:'';
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 100%;
+    height: 3px;
+    background: #9af8e4;
+    transform-origin: right;
+    border-radius: 5px;
+    transform: scaleX(0);
+    transition: transform .3s;
+    
+}
+
+.navigation a:hover::after{
+    transform-origin:left ;
+    transform: scaleX(1);
+
+}
+
+.navigation .btnlogin-popup{
+    width: 130px;
+    height: 50px;
+    background:#162938;
+    border: 2px solid #b8f3d7;
+    outline: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1.1em;
+    color: #523333;
+    font-weight: 500;
+    margin-left: 70px;
+    transition: .3s;
+    
+}
+.navigation .btnbook-popup{
+    width: 130px;
+    height: 50px;
+    background: #162938;
+    border: 2px solid #b8f3d7;
+    outline: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1.1em;
+    color: #ffffff;
+    font-weight: 500;
+    margin-left: 40px;
+    transition: .3s;
+    
+}
+.navigation .btnlogin-popup:hover{
+    background: #ffeeee;
+    color: rgb(0, 0, 0);
+
+}
+.navigation .btnbook-popup:hover{
+    background: #ffeeee;
+    color: rgb(0, 0, 0);
+
+}
+.heading-text{
+    /* background: rgb(22, 41, 56,); */
+    background-color: rgba(22, 41,56, 0.934526);
+    font-size: 5em;
+    font-weight: 500;
+     text-align: center;
+     margin:6%;
+     border-radius: 14px;
+    justify-content: center; 
+     display: flex;
+     position: absolute;
+     width: 50%;
+     padding: 30px;
+    top: 40px;
+    color: rgb(255, 255, 255);
+    
+ }
