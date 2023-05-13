@@ -12,7 +12,7 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: #162938;
+    background: #dde7ee;
     background-size: cover;
     background-position: center;
     scroll-behavior: smooth;
@@ -172,8 +172,8 @@ margin-left: 40px;
     background-color: transparent;
     border: 1px solid #ccc;
     padding: 10px;
-    box-shadow: 0 0 5px rgba(240, 235, 235, 0.973);
-    background-color: #ffffff;
+    box-shadow: 0 0 5px rgba(49, 45, 45, 0.973);
+    background-color:#162938;
     border-radius: 13px;
     height: auto;
   }
@@ -189,14 +189,18 @@ margin-left: 40px;
 
   .thumbnail h3 {
     margin: 0;
+    color: #fdfdfd;
+    text-decoration-style: solid;
     font-size: 16px;
     font-weight: normal;
+    font-weight: 800;
+
   }
 
   .thumbnail p {
     margin: 0;
     font-size: 14px;
-    color: #1b1919;
+    color: #fdfdfd;
     margin-bottom: 10px;
   }
 
@@ -216,3 +220,110 @@ margin-left: 40px;
     background-color: #3E8E41;
   }
 
+
+
+
+  footer {
+    font-size: 14px;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    height: 20px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #162938;
+    
+  }
+  
+  .widget-info {
+    width: 100;
+    
+  }
+  
+  .footer-image {
+    
+    display: inline-block;
+    
+  }
+  
+  .footer-text {
+    margin-bottom: 20px;
+    line-height: 1.5em;
+    
+  }
+  
+  .footer-heads {
+    font-weight: bold;
+    margin-bottom: 10px;
+    
+  }
+  
+  .social-links {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+  }
+  
+  .social-links li {
+    margin-right: 10px;
+    
+  }
+  
+  .social-links a {
+    display: flex;
+    align-items: center;
+    color: #0c0c0c;
+    text-decoration: none;
+    
+  }
+  
+  .social-links a:hover {
+    color: #007bff;
+    
+  }
+  
+  .social-links ion-icon {
+    margin-right: 5px;
+    font-size: 20px;
+    
+  }
+  
+  .widget-cars {
+    width: 100%;
+    
+  }
+  
+  .cars-widget {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+  }
+  
+  .cars-widget li {
+    margin-bottom: 10px;
+    
+  }
+  
+  .cars-widget a {
+    color: #110e0e;
+    text-decoration: none;
+    
+  }
+  
+  .cars-widget a:hover {
+    color: #007bff;
+    text-decoration: underline;
+    
+  }
+
+
+  
+  
+    
