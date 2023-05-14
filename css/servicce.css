@@ -8,16 +8,16 @@
 
 }
 body{
-    display:flex;
+    display:inline;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: url(/image/assets/maybach1.jpg) no-repeat;
+    background: #dde7ee;
     background-size: cover;
     background-position: center;
     scroll-behavior: smooth;
-   
-    
+    width: 100%;
+    padding: 20px 100px;
     
 }
 
@@ -71,104 +71,93 @@ margin-left: 40px;
 
 }
 
-.navigation .btnlogin-popup{
+.navigation .profile-btn{
     width: 130px;
     height: 50px;
     background:#162938;
-    border: 2px solid #b8f3d7;
+    
     outline: none;
     border-radius: 10px;
     cursor: pointer;
     font-size: 1.1em;
-    color: #523333;
+    color: #68da7b;
     font-weight: 500;
     margin-left: 70px;
     transition: .3s;
     
 }
-.navigation .btnbook-popup{
-    width: 130px;
-    height: 50px;
-    background: #162938;
-    border: 2px solid #b8f3d7;
-    outline: none;
-    border-radius: 10px;
-    cursor: pointer;
-    font-size: 1.1em;
-    color: #ffffff;
-    font-weight: 500;
-    margin-left: 40px;
-    transition: .3s;
-    
-}
-.navigation .btnlogin-popup:hover{
-    background: #ffeeee;
-    color: rgb(0, 0, 0);
 
+.profile-btn {
+  
+  background-color: #162938;
+  color: white; /* White text */
+  padding: 16px; /* Some padding */
+  font-size: 16px; /* Set a font size */
+  border: none; /* Remove borders */
+  cursor: pointer; /* Change cursor to a pointer */
 }
-.navigation .btnbook-popup:hover{
-    background: #ffeeee;
-    color: rgb(0, 0, 0);
 
+/* Dropdown button on hover & focus */
+.profile-btn:hover, .profile-btn:focus {
+  width: 130px;
+  height: 50px;
+  background:#162938;
+  outline: none;
+  border-radius: 80px;
+  cursor: pointer;
+  font-size: 1.1em;
+  color: #ffffff;
+  font-weight: 500;
+
+  
 }
-.heading-text{
-    /* background: rgb(22, 41, 56,); */
-    background-color: rgba(22, 41,56, 0.934526);
-    font-size: 5em;
-    font-weight: 500;
-     text-align: center;
-     margin:6%;
-     border-radius: 14px;
-    justify-content: center; 
-     display: flex;
-     position: absolute;
-     width: 50%;
-     padding: 30px;
-    top: 40px;
-    color: rgb(255, 255, 255);
-    
- }
 
- main {
-   background-color: #162938;
-    font-size: 5em;
-   font-weight: 500;
-    text-align: center;
-    margin:0% auto;
-   justify-content: center; 
-    position: absolute;
-    width: 100%;
-    height: 400px;
-    
-   top: 500px;
-   color: rgb(255, 255, 255);
-  }
+/* The dropdown container */
+.profile-dropdown {
+  background-color: #162938;
+color: #110e0e;
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown content (hidden by default) */
+.profile-dropdown-content {
+  display: none;
+  position: absolute;
   
-  section {
-    margin-bottom: 40px;
-  }
+}
+
+/* Links inside the dropdown */
+.profile-dropdown-content a {
+  color: black;
+  background-color: #162938;
   
-  h2 {
-    font-size: 24px;
-    margin-bottom: 20px;
-  }
+  padding: 12px 16px;
+  text-decoration: none;
+  display:flex;
+}
+
+/* Change color of dropdown links on hover */
+.profile-dropdown-content a:hover {
+  background-color: #6795b8;
   
-  p {
-    font-size: 16px;
-  }
-  .short-text{
-    font-weight: bolder;
-    font-size: xx-large;
-    padding: 14px;
-    text-align: left;
-  }
+}
+
+/* Show the dropdown menu on hover */
+.profile-dropdown:hover .profile-dropdown-content {
+  display: block;
+}
+
+
+
+
 
   footer {
     font-size: 14px;
-    position: absolute;
+    position: relative;
     left: 0;
+    
     bottom: 0;
-    top: 900px;
     height: 20px;
     width: 100%;
     display: flex;
@@ -263,3 +252,26 @@ margin-left: 40px;
     text-decoration: underline;
     
   }
+
+  
+
+
+
+  .container {
+    width: 90%;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    list-style: none;
+    
+  }
+  .top-service{
+        font-size: larger;
+  }
+  
+  .services {
+    text-align: center;
+  }
+    

@@ -1,0 +1,56 @@
+.history {
+    width: 800px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .history h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 40px;
+  }
+  
+  .history ul {
+    list-style:none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .history li {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 10px;
+    list-style: none;
+  }
+  
+  .history .car-thumbnail {
+    flex: 1 1 200px;
+    margin-right: 20px;
+  }
+  
+  .history .car-thumbnail img {
+    width: 100px;
+    height: 340px;
+    border-radius: 8px;
+  }
+  
+  .history .car-details {
+    flex: 2 1 300px;
+    text-align: left;
+  }
+  
+  .history h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .history p {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  

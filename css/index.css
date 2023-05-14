@@ -8,16 +8,16 @@
 
 }
 body{
-    display:flex;
+    display:inline;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: url(/image/assets/maybach1.jpg) no-repeat;
+    background: #dde7ee;
     background-size: cover;
     background-position: center;
     scroll-behavior: smooth;
-   
-    
+    width: 100%;
+    padding: 20px 100px;
     
 }
 
@@ -86,89 +86,130 @@ margin-left: 40px;
     transition: .3s;
     
 }
-.navigation .btnbook-popup{
-    width: 130px;
-    height: 50px;
-    background: #162938;
-    border: 2px solid #b8f3d7;
-    outline: none;
-    border-radius: 10px;
-    cursor: pointer;
-    font-size: 1.1em;
-    color: #ffffff;
-    font-weight: 500;
-    margin-left: 40px;
-    transition: .3s;
-    
-}
-.navigation .btnlogin-popup:hover{
-    background: #ffeeee;
-    color: rgb(0, 0, 0);
 
-}
+
 .navigation .btnbook-popup:hover{
     background: #ffeeee;
     color: rgb(0, 0, 0);
 
 }
 .heading-text{
-    /* background: rgb(22, 41, 56,); */
-    background-color: rgba(22, 41,56, 0.934526);
-    font-size: 5em;
-    font-weight: 500;
-     text-align: center;
-     margin:6%;
-     border-radius: 14px;
-    justify-content: center; 
-     display: flex;
-     position: absolute;
-     width: 50%;
-     padding: 30px;
-    top: 40px;
-    color: rgb(255, 255, 255);
-    
- }
-
- main {
-   background-color: #162938;
-    font-size: 5em;
+   font-size: 5em;
    font-weight: 500;
     text-align: center;
     margin:0% auto;
    justify-content: center; 
-    position: absolute;
+    display: flex;
+    position: relative;
     width: 100%;
-    height: 400px;
+    padding: 30px;
+   top: 20px;
+   color: rgb(0, 0, 0);
+   
+}
+
+.center-text {
     
-   top: 500px;
-   color: rgb(255, 255, 255);
+    text-align: justify;
+    margin: 0 auto;
+    position:relative;
+    max-width: 600px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+     width: 40%;
+    height: 30%;
+    
   }
   
-  section {
-    margin-bottom: 40px;
+.bold-text{
+    justify-content: center;
+    font-size: 1.7em;
+    display: flex;
+    
+}
+
+.lead-text-muted{
+    background-color: #be6565;
+    font-size: 1.4em;
+    border-radius: 8.5px;
+    text-align: justify;
+    padding: 12px;
+    position: relative;
+    display: flex;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    grid-gap: 20px;
+    padding: 20px;
   }
-  
-  h2 {
-    font-size: 24px;
-    margin-bottom: 20px;
+
+  .thumbnail {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: transparent;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-shadow: 0 0 5px rgba(49, 45, 45, 0.973);
+    background-color:#162938;
+    border-radius: 13px;
+    height: auto;
   }
-  
-  p {
+
+  .thumbnail img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius:12px;
+    
+    
+  }
+
+  .thumbnail h3 {
+    margin: 0;
+    color: #fdfdfd;
+    text-decoration-style: solid;
     font-size: 16px;
+    font-weight: normal;
+    font-weight: 800;
+
   }
-  .short-text{
-    font-weight: bolder;
-    font-size: xx-large;
-    padding: 14px;
-    text-align: left;
+
+  .thumbnail p {
+    margin: 0;
+    font-size: 14px;
+    color: #fdfdfd;
+    margin-bottom: 10px;
   }
+
+  .thumbnail button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    box-shadow: #0000;
+    padding: 8px 16px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .thumbnail button:hover {
+    background-color: #3E8E41;
+  }
+
+
+
 
   footer {
     font-size: 14px;
-    position: absolute;
+    position: relative;
     left: 0;
     bottom: 0;
-    top: 900px;
     height: 20px;
     width: 100%;
     display: flex;
@@ -263,3 +304,22 @@ margin-left: 40px;
     text-decoration: underline;
     
   }
+
+  .reserve {
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 50px 0;
+  }
+  
+  .jumbotron {
+    background-color: #f8f9fa;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+  }
+  
+
+  
+  
+    
